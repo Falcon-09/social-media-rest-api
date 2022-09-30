@@ -54,7 +54,7 @@ exports.updatePost = async(req,res) => {
     }
 }
 
-// del post 
+// delete post 
 exports.deletePost = async(req,res) => {
     const postId = req.params.id
 
